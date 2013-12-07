@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6E39101853689A006845D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E390F1853689A006845D3 /* Foundation.framework */; };
+		7A6E39121853689A006845D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E39111853689A006845D3 /* CoreGraphics.framework */; };
+		7A6E39141853689A006845D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E39131853689A006845D3 /* UIKit.framework */; };
+		7A6E391A1853689A006845D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E39181853689A006845D3 /* InfoPlist.strings */; };
+		7A6E391C1853689A006845D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E391B1853689A006845D3 /* main.m */; };
+		7A6E39201853689A006845D3 /* LBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E391F1853689A006845D3 /* LBAppDelegate.m */; };
+		7A6E39231853689A006845D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E39211853689A006845D3 /* Main.storyboard */; };
+		7A6E39261853689A006845D3 /* LBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E39251853689A006845D3 /* LBViewController.m */; };
+		7A6E39281853689A006845D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E39271853689A006845D3 /* Images.xcassets */; };
+		7A6E392F1853689A006845D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E392E1853689A006845D3 /* XCTest.framework */; };
+		7A6E39301853689A006845D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E390F1853689A006845D3 /* Foundation.framework */; };
+		7A6E39311853689A006845D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6E39131853689A006845D3 /* UIKit.framework */; };
+		7A6E39391853689A006845D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E39371853689A006845D3 /* InfoPlist.strings */; };
+		7A6E393B1853689A006845D3 /* kapporTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E393A1853689A006845D3 /* kapporTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A6E39321853689A006845D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6E39041853689A006845D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6E390B1853689A006845D3;
+			remoteInfo = kappor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6E390C1853689A006845D3 /* kappor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kappor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6E390F1853689A006845D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A6E39111853689A006845D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A6E39131853689A006845D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A6E39171853689A006845D3 /* kappor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kappor-Info.plist"; sourceTree = "<group>"; };
+		7A6E39191853689A006845D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A6E391B1853689A006845D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A6E391D1853689A006845D3 /* kappor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kappor-Prefix.pch"; sourceTree = "<group>"; };
+		7A6E391E1853689A006845D3 /* LBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBAppDelegate.h; sourceTree = "<group>"; };
+		7A6E391F1853689A006845D3 /* LBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBAppDelegate.m; sourceTree = "<group>"; };
+		7A6E39221853689A006845D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A6E39241853689A006845D3 /* LBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBViewController.h; sourceTree = "<group>"; };
+		7A6E39251853689A006845D3 /* LBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBViewController.m; sourceTree = "<group>"; };
+		7A6E39271853689A006845D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7A6E392D1853689A006845D3 /* kapporTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kapporTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6E392E1853689A006845D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7A6E39361853689A006845D3 /* kapporTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kapporTests-Info.plist"; sourceTree = "<group>"; };
+		7A6E39381853689A006845D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A6E393A1853689A006845D3 /* kapporTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kapporTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6E39091853689A006845D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E39121853689A006845D3 /* CoreGraphics.framework in Frameworks */,
+				7A6E39141853689A006845D3 /* UIKit.framework in Frameworks */,
+				7A6E39101853689A006845D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6E392A1853689A006845D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E392F1853689A006845D3 /* XCTest.framework in Frameworks */,
+				7A6E39311853689A006845D3 /* UIKit.framework in Frameworks */,
+				7A6E39301853689A006845D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A6E39031853689A006845D3 = {
+			isa = PBXGroup;
+			children = (
+				7A6E39151853689A006845D3 /* kappor */,
+				7A6E39341853689A006845D3 /* kapporTests */,
+				7A6E390E1853689A006845D3 /* Frameworks */,
+				7A6E390D1853689A006845D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6E390D1853689A006845D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E390C1853689A006845D3 /* kappor.app */,
+				7A6E392D1853689A006845D3 /* kapporTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A6E390E1853689A006845D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E390F1853689A006845D3 /* Foundation.framework */,
+				7A6E39111853689A006845D3 /* CoreGraphics.framework */,
+				7A6E39131853689A006845D3 /* UIKit.framework */,
+				7A6E392E1853689A006845D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A6E39151853689A006845D3 /* kappor */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E391E1853689A006845D3 /* LBAppDelegate.h */,
+				7A6E391F1853689A006845D3 /* LBAppDelegate.m */,
+				7A6E39211853689A006845D3 /* Main.storyboard */,
+				7A6E39241853689A006845D3 /* LBViewController.h */,
+				7A6E39251853689A006845D3 /* LBViewController.m */,
+				7A6E39271853689A006845D3 /* Images.xcassets */,
+				7A6E39161853689A006845D3 /* Supporting Files */,
+			);
+			path = kappor;
+			sourceTree = "<group>";
+		};
+		7A6E39161853689A006845D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E39171853689A006845D3 /* kappor-Info.plist */,
+				7A6E39181853689A006845D3 /* InfoPlist.strings */,
+				7A6E391B1853689A006845D3 /* main.m */,
+				7A6E391D1853689A006845D3 /* kappor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A6E39341853689A006845D3 /* kapporTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E393A1853689A006845D3 /* kapporTests.m */,
+				7A6E39351853689A006845D3 /* Supporting Files */,
+			);
+			path = kapporTests;
+			sourceTree = "<group>";
+		};
+		7A6E39351853689A006845D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A6E39361853689A006845D3 /* kapporTests-Info.plist */,
+				7A6E39371853689A006845D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6E390B1853689A006845D3 /* kappor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6E393E1853689A006845D3 /* Build configuration list for PBXNativeTarget "kappor" */;
+			buildPhases = (
+				7A6E39081853689A006845D3 /* Sources */,
+				7A6E39091853689A006845D3 /* Frameworks */,
+				7A6E390A1853689A006845D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kappor;
+			productName = kappor;
+			productReference = 7A6E390C1853689A006845D3 /* kappor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A6E392C1853689A006845D3 /* kapporTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6E39411853689A006845D3 /* Build configuration list for PBXNativeTarget "kapporTests" */;
+			buildPhases = (
+				7A6E39291853689A006845D3 /* Sources */,
+				7A6E392A1853689A006845D3 /* Frameworks */,
+				7A6E392B1853689A006845D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A6E39331853689A006845D3 /* PBXTargetDependency */,
+			);
+			name = kapporTests;
+			productName = kapporTests;
+			productReference = 7A6E392D1853689A006845D3 /* kapporTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A6E39041853689A006845D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = saifuddin;
+				TargetAttributes = {
+					7A6E392C1853689A006845D3 = {
+						TestTargetID = 7A6E390B1853689A006845D3;
+					};
+				};
+			};
+			buildConfigurationList = 7A6E39071853689A006845D3 /* Build configuration list for PBXProject "kappor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A6E39031853689A006845D3;
+			productRefGroup = 7A6E390D1853689A006845D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6E390B1853689A006845D3 /* kappor */,
+				7A6E392C1853689A006845D3 /* kapporTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6E390A1853689A006845D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E39281853689A006845D3 /* Images.xcassets in Resources */,
+				7A6E391A1853689A006845D3 /* InfoPlist.strings in Resources */,
+				7A6E39231853689A006845D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6E392B1853689A006845D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E39391853689A006845D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6E39081853689A006845D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E39201853689A006845D3 /* LBAppDelegate.m in Sources */,
+				7A6E391C1853689A006845D3 /* main.m in Sources */,
+				7A6E39261853689A006845D3 /* LBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6E39291853689A006845D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6E393B1853689A006845D3 /* kapporTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A6E39331853689A006845D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6E390B1853689A006845D3 /* kappor */;
+			targetProxy = 7A6E39321853689A006845D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A6E39181853689A006845D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6E39191853689A006845D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A6E39211853689A006845D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6E39221853689A006845D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A6E39371853689A006845D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6E39381853689A006845D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A6E393C1853689A006845D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A6E393D1853689A006845D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6E393F1853689A006845D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kappor/kappor-Prefix.pch";
+				INFOPLIST_FILE = "kappor/kappor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A6E39401853689A006845D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kappor/kappor-Prefix.pch";
+				INFOPLIST_FILE = "kappor/kappor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7A6E39421853689A006845D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kappor.app/kappor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kappor/kappor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kapporTests/kapporTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7A6E39431853689A006845D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kappor.app/kappor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kappor/kappor-Prefix.pch";
+				INFOPLIST_FILE = "kapporTests/kapporTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A6E39071853689A006845D3 /* Build configuration list for PBXProject "kappor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6E393C1853689A006845D3 /* Debug */,
+				7A6E393D1853689A006845D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6E393E1853689A006845D3 /* Build configuration list for PBXNativeTarget "kappor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6E393F1853689A006845D3 /* Debug */,
+				7A6E39401853689A006845D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A6E39411853689A006845D3 /* Build configuration list for PBXNativeTarget "kapporTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6E39421853689A006845D3 /* Debug */,
+				7A6E39431853689A006845D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A6E39041853689A006845D3 /* Project object */;
+}
