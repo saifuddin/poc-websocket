@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9DC2D4DB-D269-4A6A-8463-B1CB16D38354</string>
+	<key>IDESourceControlProjectName</key>
+	<string>kappor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20BE2BD3-4813-4F1B-A3D1-2F096DDB3E00</key>
+		<string>ssh://github.com/saifuddin/poc-websocket.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>kappor-ios/kappor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20BE2BD3-4813-4F1B-A3D1-2F096DDB3E00</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/saifuddin/poc-websocket.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20BE2BD3-4813-4F1B-A3D1-2F096DDB3E00</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20BE2BD3-4813-4F1B-A3D1-2F096DDB3E00</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kappor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

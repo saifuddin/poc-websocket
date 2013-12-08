@@ -43,9 +43,7 @@
         drawingPath.lineCapStyle = kCGLineCapRound;
         drawingPath.miterLimit = 0;
         drawingPath.lineWidth = 4; //Default line weight - change with changeLineWeightTo: method.
-//        drawingColor = [UIColor blackColor]; //Default color - change with changeColorTo: method.
-        drawingColor = [UIColor blackColor];
-        
+        drawingColor = [UIColor lightGrayColor]; //Default color - change with changeColorTo: method.
         //2nd one
         self.backgroundColor = [UIColor whiteColor];
         drawingPath2 = [[UIBezierPath alloc]init];
@@ -78,6 +76,19 @@
     [drawingPath2 strokeWithBlendMode:kCGBlendModeNormal alpha:1.0];
 }
 
+// For 2nd line
+- (void)addLineToPoint:(CGPoint)point
+{
+    [drawingPath2 addLineToPoint:point];
+    [self setNeedsDisplay];
+}
+
+// For 2nd line
+- (void)moveToPoint:(CGPoint)point
+{
+    [drawingPath2 moveToPoint:point];
+}
+
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     UITouch *touch = [[touches allObjects] objectAtIndex:0];
@@ -87,17 +98,6 @@
     {
         [delegate moveToPoint:point];
     }
-}
-
-- (void)addLineToPoint:(CGPoint)point
-{
-    [drawingPath2 addLineToPoint:point];
-    [self setNeedsDisplay];
-}
-
-- (void)moveToPoint:(CGPoint)point
-{
-    [drawingPath2 moveToPoint:point];
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -112,4 +112,10 @@
     [self setNeedsDisplay];
 }
 
+- (void)removeAllPoints
+{
+    [drawingPath removeAllPoints];
+    [drawingPath2 removeAllPoints];
+    [self setNeedsDisplay];
+}
 @end

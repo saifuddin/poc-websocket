@@ -26,5 +26,6 @@
 - (void)addLineToPoint:(CGPoint)point;
 - (void)changeLineWeightTo:(NSInteger)weight;
 - (void)changeColorTo:(UIColor *)color;
+- (void)removeAllPoints;
 
 @end

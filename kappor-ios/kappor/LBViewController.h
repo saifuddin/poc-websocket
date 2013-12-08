@@ -11,5 +11,6 @@
 
 @interface LBViewController : UIViewController <MGDrawingSlateDelegate>
 @property (weak, nonatomic) IBOutlet MGDrawingSlate *drawingPad;
+- (IBAction)clear:(id)sender;
 
 @end

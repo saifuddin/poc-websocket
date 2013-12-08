@@ -42,7 +42,18 @@
 {
     [super viewDidLoad];
     self.drawingPad.delegate = self;
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *redBG = [[UIView alloc] initWithFrame:self.view.frame];
+    redBG.tag = 22;
+    redBG.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:redBG];
+    [UIView animateWithDuration:1
+                     animations:^{
+                         redBG.backgroundColor = [UIColor redColor];
+                     }
+                     completion:nil];
+    
+    [[[UIAlertView alloc] initWithTitle:@"Whoa!" message:@"U should wait until saifuddin tell u to press ok, and then you can press ok." delegate:nil cancelButtonTitle:@"I will press this only when saifuddin tells me to do so" otherButtonTitles:nil] show];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -65,7 +76,7 @@
     _webSocket.delegate = nil;
     [_webSocket close];
     
-    _webSocket = [[SRWebSocket alloc] initWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"ws://192.168.1.8:8000/chat"]]];
+    _webSocket = [[SRWebSocket alloc] initWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"ws://54.251.108.159:8000/chat"]]];
     _webSocket.delegate = self;
     
     self.title = @"Opening Connection...";
@@ -78,6 +89,14 @@
 - (void)webSocketDidOpen:(SRWebSocket *)webSocket;
 {
     NSLog(@"Websocket Connected!");
+    UIView *v = [self.view viewWithTag:22];
+    [UIView animateWithDuration:1
+                     animations:^{
+                         v.backgroundColor = [UIColor clearColor];
+                     }
+                     completion:^(BOOL f){
+                         [v removeFromSuperview];
+                     }];
     self.title = @"Connected!";
 }
 
@@ -127,4 +146,8 @@
     [_webSocket send:fullMessage];
 }
 
+- (IBAction)clear:(id)sender
+{
+    [self.drawingPad removeAllPoints];
+}
 @end
