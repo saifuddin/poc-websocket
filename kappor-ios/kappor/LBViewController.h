@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MGDrawingSlate.h"
 
-@interface LBViewController : UIViewController
+@interface LBViewController : UIViewController <MGDrawingSlateDelegate>
+@property (weak, nonatomic) IBOutlet MGDrawingSlate *drawingPad;
 
 @end
